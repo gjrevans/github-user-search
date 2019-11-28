@@ -1,5 +1,18 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="text-white">
+    <h1>Installed Components</h1>
+    <InstalledComponents/>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import InstalledComponents from '@/components/InstalledComponents.vue'
+
+export default {
+  name: "About",
+  components: {
+    InstalledComponents
+  }
+}
+</script>

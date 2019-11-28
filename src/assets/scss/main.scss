@@ -1,0 +1,12 @@
+// INITIALIZERS
+@import 'mixins';
+@import 'variables';
+
+// BOOTSTRAP
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+// COMPONENTS
+@import 'utilities';
+@import 'layouts';
+@import 'modules';

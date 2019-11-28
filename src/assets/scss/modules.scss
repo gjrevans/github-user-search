@@ -1,0 +1,13 @@
+.m-search {
+  &__box {
+    @extend .rounded;
+    border: 1px solid lighten($dark, 10%);
+    background: rgba($dark, 0.5);
+    &__title {
+      @extend .p-4, .border-bottom, .border-primary, .text-center, .text-uppercase, .text-white;
+    }
+    &__body {
+      @extend .p-4;
+    }
+  }
+}

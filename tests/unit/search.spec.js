@@ -1,7 +1,11 @@
 import { shallowMount } from '@vue/test-utils'
-import HelloWorld from '@/components/HelloWorld.vue'
+import Search from '@/views/Search.vue'
 
-describe('HelloWorld.vue', () => {
+const state = {
+  
+}
+
+describe('Search.vue', () => {
   it('renders props.msg when passed', () => {
     const msg = 'new message'
     const wrapper = shallowMount(HelloWorld, {

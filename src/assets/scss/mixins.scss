@@ -1,0 +1,8 @@
+@mixin size__variant($sizes) {
+  @each $size, $value in $sizes {
+    &--#{$size} {
+      width: $value;
+      height: $value;
+    }
+  }
+}
