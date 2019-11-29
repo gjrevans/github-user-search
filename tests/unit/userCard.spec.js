@@ -2,7 +2,7 @@ import { shallowMount } from '@vue/test-utils'
 import UserCard from '@/components/UserCard.vue'
 
 describe('UserCard.vue', () => {
-  it('Displays a user name, when a user name is present', () => {
+  it('should display a user name when a user name is present', () => {
     const user = {
       avatar_url: "https://via.placeholder.com/150",
       name: "Gordon",
@@ -16,7 +16,7 @@ describe('UserCard.vue', () => {
     expect(wrapper.text()).toMatch(user.name)
     expect(wrapper.find('a').attributes('href')).toMatch(user.html_url)
   })
-  it('Displays a user login, when a user name is not present', () => {
+  it('should display a user login, when a user name is not present', () => {
     const user = {
       avatar_url: "https://via.placeholder.com/150",
       name: null,

@@ -24,8 +24,7 @@ describe('SearchForm.vue', () => {
     })
   })
 
-  it('Reset button should be disabled unless user has entered username', () => {
-
+  it('should disabled reset button unless user has entered username', () => {
     const wrapper = shallowMount(SearchForm, {
       store,
       localVue,
