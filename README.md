@@ -1,4 +1,5 @@
 # github-user-search
+The GitHub user search application lets users search for GitHub users and oranizations and returns the user / organization profile and any associated repositories. To get started, please clone the repository and following the project setup instructions below.
 
 ## Project setup
 ```
